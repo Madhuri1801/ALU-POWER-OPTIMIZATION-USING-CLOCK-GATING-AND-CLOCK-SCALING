@@ -1,4 +1,6 @@
 **ALU-POWER-OPTIMIZATION-USING-CLOCK-GATING-AND-CLOCK-SCALING**
+
+
 This project focuses on developing and integrating low-power design techniques for Arithmetic Logic Units a core component of modern processors. By applying methods such as clock gating, operand isolation, dynamic voltage scaling, and low-power arithmetic designs, the project aims to minimize both dynamic and static power dissipation.
 
 The functional verification of the power-optimized 32-bit ALU was conducted using **Xilinx Vivado**.The simulation validated correct arithmetic and logic operations across different power modes, ensuring functional integrity with clock gating and clock scaling mechanisms integrated.
@@ -12,7 +14,7 @@ Key outcomes from the synthesis phase included:
 This synthesis process demonstrates a practical and scalable methodology for integrating low-power techniques into ALU design, aligning with modern semiconductor industry demands for energy-efficient and high-performance SoC development.
 
 
-< **Table of Contents** >
+  **Table of Contents** 
 
 - [Introduction](#introduction)
 - [Objective](#objective)
