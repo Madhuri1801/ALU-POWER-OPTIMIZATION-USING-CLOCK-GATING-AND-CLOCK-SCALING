@@ -6,6 +6,7 @@ This project focuses on developing and integrating low-power design techniques f
 The functional verification of the power-optimized 32-bit ALU was conducted using **Xilinx Vivado**.The simulation validated correct arithmetic and logic operations across different power modes, ensuring functional integrity with clock gating and clock scaling mechanisms integrated.
 
 A comprehensive testbench stimulated the ALU under various scenarios, including addition, subtraction, AND, OR, XOR, and NOT operations, while dynamically adjusting clock frequencies based on power mode settings.
+
 The synthesized 32-bit ALU, optimized with clock gating and clock scaling techniques, was implemented using **Cadence Genus Synthesis Solution**, an industry-standard RTL-to-GDSII toolchain. The project leveraged fine-grained clock control to achieve dynamic power reduction while maintaining performance targets. During synthesis, the Genus tool produced detailed QoR (Quality of Results) reports, including timing analysis, area utilization, and power estimation.  
 Key outcomes from the synthesis phase included:
 - **Achieving timing closure** for all critical paths.
