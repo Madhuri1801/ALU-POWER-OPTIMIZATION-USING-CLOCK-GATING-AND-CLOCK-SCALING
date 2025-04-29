@@ -14,26 +14,26 @@ This synthesis process demonstrates a practical and scalable methodology for int
 
 < **Table of Contents** >
 
-Introduction
-Objective
-Code
-  Module 1: ALU
-  Module 2: Carry Lookahead Adder for highly computable arithmetic operations
-  Module 3 : ClockScaling using frequency division based on the power mode
-  Module 4: Latch-based Clock Gating Implementation
-Testbench
-Simulation results
-Synthesis Results
-  Module 1: ALU 32-bit
-    1. Schematic after synthesis
-    2. QOR Report
-  Module 2: Carry Lookahead Adder
-    1. Schematic after synthesis
-    2. QOR Report
-  Module 3 : Clock scaling
-    1. Schematic after synthesis
-    2. QOR Report
-  Module 4 : Clock Gating
-    1. Schematic after synthesis
-    2. QOR Report
-  Conclusion
+- [Introduction](#introduction)
+- [Objective](#objective)
+- [Code](#code)
+  - [Module 1: ALU](#module-1-alu)
+  - [Module 2: Carry Lookahead Adder for Highly Computable Arithmetic Operations](#module-2-carry-lookahead-adder-for-highly-computable-arithmetic-operations)
+  - [Module 3: Clock Scaling Using Frequency Division Based on the Power Mode](#module-3-clock-scaling-using-frequency-division-based-on-the-power-mode)
+  - [Module 4: Latch-based Clock Gating Implementation](#module-4-latch-based-clock-gating-implementation)
+- [Testbench](#testbench)
+- [Simulation Results](#simulation-results)
+- [Synthesis Results](#synthesis-results)
+  - [Module 1: ALU 32-bit](#module-1-alu-32-bit)
+    - [Schematic After Synthesis](#schematic-after-synthesis)
+    - [QOR Report](#qor-report)
+  - [Module 2: Carry Lookahead Adder](#module-2-carry-lookahead-adder)
+    - [Schematic After Synthesis](#schematic-after-synthesis-1)
+    - [QOR Report](#qor-report-1)
+  - [Module 3: Clock Scaling](#module-3-clock-scaling)
+    - [Schematic After Synthesis](#schematic-after-synthesis-2)
+    - [QOR Report](#qor-report-2)
+  - [Module 4: Clock Gating](#module-4-clock-gating)
+    - [Schematic After Synthesis](#schematic-after-synthesis-3)
+    - [QOR Report](#qor-report-3)
+- [Conclusion](#conclusion)
